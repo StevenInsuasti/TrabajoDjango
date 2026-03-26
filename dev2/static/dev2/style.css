@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #dde1e7;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+    max-width: 700px;
+    width: 100%;
+    padding: 40px;
+}
+
+.nombre {
+    font-size: 2rem;
+    color: #1a1a2e;
+    margin-bottom: 6px;
+}
+
+.cargo {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 0;
+}
+
+.seccion {
+    border-bottom: 1px solid #eaeaea;
+    padding: 24px 0;
+}
+
+.seccion:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.seccion h2 {
+    font-size: 1.1rem;
+    color: #2c3e50;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.seccion p {
+    color: #444;
+    line-height: 1.7;
+}
+
+.seccion ul {
+    list-style: none;
+    padding: 0;
+}
+
+.seccion ul li {
+    color: #444;
+    margin-bottom: 12px;
+    line-height: 1.6;
+}
+
+.seccion ul li span {
+    font-size: 0.875rem;
+    color: #888;
+}
+
+.seccion a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+.seccion a:hover {
+    text-decoration: underline;
+}
