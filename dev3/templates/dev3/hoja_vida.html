@@ -1,0 +1,62 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de Vida - Hector Riascos</title>
+    <link rel="stylesheet" href="{% static 'dev3/style.css' %}">
+</head>
+<body>
+    <div class="container">
+
+        <!-- Datos personales -->
+        <div class="card" id="datos-personales">
+            <h1>Hector Alejandro Riascos Insuasty</h1>
+            <p><strong>Email:</strong> hectorariascos6.6@gmail.com</p>
+            <p><strong>Teléfono:</strong> 322 667 9615</p>
+            <p><strong>Ciudad:</strong> Pasto, Nariño</p>
+        </div>
+
+        <!-- Perfil profesional -->
+        <div class="card" id="perfil">
+            <h2>Perfil Profesional</h2>
+            <p>
+                Estudiante de Ingeniería de Software en la Universidad Cooperativa de Colombia,
+                con base técnica en sistemas desde 2022. Me interesa el desarrollo de software
+                y estoy construyendo experiencia en proyectos web con Python y Django.
+                Soy una persona disciplinada, lo cual reflejo también fuera del aula practicando
+                taekwondo. Me apasiona la música y la aviación, áreas que me han enseñado que
+                la precisión y la dedicación marcan la diferencia, valores que aplico en cada
+                proyecto que desarrollo.
+            </p>
+        </div>
+
+        <!-- Formación académica -->
+        <div class="card" id="formacion">
+            <h2>Formación Académica</h2>
+            <div class="item">
+                <h3>Ingeniería de Software</h3>
+                <p>Universidad Cooperativa de Colombia &mdash; 2024 - 2026</p>
+            </div>
+            <div class="item">
+                <h3>Técnico en Sistemas</h3>
+                <p>2022</p>
+            </div>
+        </div>
+
+        <!-- Repositorios -->
+        <div class="card" id="repositorios">
+            <h2>Repositorios</h2>
+            <ul>
+                <li>
+                    <a href="https://github.com/HectorARiascosI" target="_blank">
+                        github.com/HectorARiascosI
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</body>
+</html>
