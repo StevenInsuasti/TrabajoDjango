@@ -1,0 +1,49 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de Vida - Dev2</title>
+    <link rel="stylesheet" href="{% static 'dev2/style.css' %}">
+</head>
+<body>
+    <div class="card">
+
+        <section class="seccion">
+            <h1 class="nombre">[Nombre Completo]</h1>
+            <p class="cargo">[Cargo o Título Profesional]</p>
+        </section>
+
+        <section class="seccion">
+            <h2>Perfil Profesional</h2>
+            <p>
+                [Descripción breve del perfil profesional. Experiencia, habilidades principales
+                y objetivos como desarrollador de software.]
+            </p>
+        </section>
+
+        <section class="seccion">
+            <h2>Formación Académica</h2>
+            <ul>
+                <li>
+                    <strong>[Título obtenido]</strong> — [Institución]<br>
+                    <span>[Año inicio] - [Año fin]</span>
+                </li>
+                <li>
+                    <strong>[Otro título o curso]</strong> — [Institución]<br>
+                    <span>[Año inicio] - [Año fin]</span>
+                </li>
+            </ul>
+        </section>
+
+        <section class="seccion">
+            <h2>Repositorios</h2>
+            <ul>
+                <li><a href="https://github.com/[usuario]" target="_blank">GitHub — [usuario]</a></li>
+            </ul>
+        </section>
+
+    </div>
+</body>
+</html>
