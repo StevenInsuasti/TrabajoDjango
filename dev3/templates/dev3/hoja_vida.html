@@ -1,0 +1,68 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de Vida - Dev3</title>
+    <link rel="stylesheet" href="{% static 'dev3/style.css' %}">
+</head>
+<body>
+    <div class="container">
+
+        <!-- Datos personales -->
+        <div class="card" id="datos-personales">
+            <h1>Nombre Completo</h1>
+            <p><strong>Email:</strong> correo@ejemplo.com</p>
+            <p><strong>Teléfono:</strong> +57 300 000 0000</p>
+            <p><strong>Ciudad:</strong> Bogotá, Colombia</p>
+        </div>
+
+        <!-- Perfil profesional -->
+        <div class="card" id="perfil">
+            <h2>Perfil Profesional</h2>
+            <p>
+                Desarrollador de software con interés en tecnologías web y backend.
+                Apasionado por el aprendizaje continuo y el trabajo en equipo.
+                Con experiencia en proyectos académicos usando Python y Django.
+            </p>
+        </div>
+
+        <!-- Formación académica -->
+        <div class="card" id="formacion">
+            <h2>Formación Académica</h2>
+            <div class="item">
+                <h3>Ingeniería de Sistemas</h3>
+                <p>Universidad Ejemplo &mdash; 2021 - Presente</p>
+            </div>
+            <div class="item">
+                <h3>Bachiller Técnico</h3>
+                <p>Colegio Ejemplo &mdash; 2020</p>
+            </div>
+        </div>
+
+        <!-- Repositorios -->
+        <div class="card" id="repositorios">
+            <h2>Repositorios</h2>
+            <ul>
+                <li>
+                    <a href="https://github.com/usuario/proyecto1" target="_blank">
+                        github.com/usuario/proyecto1
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/usuario/proyecto2" target="_blank">
+                        github.com/usuario/proyecto2
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/usuario" target="_blank">
+                        github.com/usuario (perfil)
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</body>
+</html>
